@@ -1,0 +1,20 @@
+// .vscode/tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build pybind11 extension",
+        "type": "shell",
+        "command": "python3",
+        "args": [
+          "setup.py", "build_ext", "--inplace"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
