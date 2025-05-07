@@ -1,0 +1,6 @@
+%FILES%
+mingw64/
+mingw64/bin/
+mingw64/bin/gdb-multiarch.exe
+mingw64/bin/gdbserver-multiarch.exe
+

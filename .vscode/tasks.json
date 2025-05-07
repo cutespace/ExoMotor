@@ -1,0 +1,11 @@
+{
+  "label": "build-modbus",
+  "type": "shell",
+  "command": "E:/Bath PhD/piano teaching exo/ServoMotorMK60-040/iSMKMotorControl/msys2/mingw64/bin/g++.exe",
+  "args": [
+    "-std=c++17",
+    "main.cpp",
+    "-o", "modbus_read.exe",
+    "-lboost_system"
+  ]
+}

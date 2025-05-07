@@ -1,1 +1,8 @@
 .\.venv\Scripts\activate
+
+#编译cpp
+g++ main.cpp -o main.exe -I"E:\Bath PhD\piano teaching exo\ServoMotorMK60-040\iSMKMotorControl\msys2\mingw64\include" -lws2_32 -lwsock32
+
+
+#调用exe 
+.\main.exe
