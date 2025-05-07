@@ -2,7 +2,7 @@
 from setuptools import setup, Extension
 import pybind11
 
-ext = Extension(
+kinco_mod = Extension(
     'kinco_backend',
     ['kinco_backend.cpp'],
     include_dirs=[pybind11.get_include()],
@@ -11,5 +11,5 @@ ext = Extension(
 
 setup(
     name='kinco_backend',
-    ext_modules=[ext],
+    ext_modules=[kinco_mod],
 )
